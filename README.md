@@ -1,6 +1,7 @@
-# ⚡ Data Analyst Agent — Your AI-Powered Data Companion  
+# Data Analyst Agent — Your AI-Powered Data Companion  
 > Smarter, faster, and more intuitive analysis of your datasets using **Generative AI + Python magic.**  
-> Repository: *Insert your GitHub repo link here*
+> ⚠️ WARNING: Use at Your Own Risk.
+> This project is a work in progress. Things might break, behave unexpectedly, or not work at all.
 
 ---
 
@@ -34,21 +35,34 @@ Perfect for:
 ---
 
 ## 🚀 Getting Started  
+### 1. Clone the Repository
+```bash
+  git clone https://github.com/23f1002492/TDS-PROJECT-II.git
+```
 
-### 1️⃣ Clone the Repo  - git clone https://github.com/23f1002492/TDS-PROJECT-II.git
-cd data-analyst-agent
+### 2. Change working folder
+```bash
+  cd TDS-PROJECT-II
+```
 
-### 2️⃣ Install Requirements  - pip install -r requirements.txt
+### 3. Install Dependencies (ensure you have python installed)
+```bash
+  pip install -r requirements.txt
+```
 
-### 3️⃣ Configure API Keys  
-Create a `.env` file inside the root folder:  
+### 4. Configure API Keys  
+Create a `.env` file inside the root folder:
+```bash
 GEMINI_API_KEY=your_google_api_key
 LLM_TIMEOUT_SECONDS=240
+```
 
-
-### 4️⃣ Start the Application  - python -m uvicorn app:app --reload
-
+### 5. Start the Application
+```bash
+python -m uvicorn app:app --reload
+```
 Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser 🌐  
+
 
 ## 🧑‍💻 How It Works  
 
@@ -122,4 +136,4 @@ Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser �
 ## 📜 License  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<hr>
+---
